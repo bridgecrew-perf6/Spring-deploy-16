@@ -28,7 +28,7 @@ public class HelloController {
 
 
 
-    @GetMapping("bootstrap") // ejemplo html
+    @GetMapping("/") // ejemplo html
      public String bootstrap() {
         return
                 """
